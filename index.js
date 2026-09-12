@@ -66,7 +66,7 @@ app.command("/dino-bot-weather", async ({ ack, respond, body }) => {
     const weather = response.data.current;
     
     await respond({
-      text:  `Temperature: ${weather.temp_c}°C\n💨 Wind: ${weather.wind_kph} km/h`
+      text: `Temperature: ${weather.temperature}°C\n💨 Wind: ${weather.wind_speed} km/h`
     });
     
   } catch (err) {

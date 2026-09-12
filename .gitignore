@@ -1,3 +1,8 @@
 node_modules/
 .env
 .env.*
+route
+route.pub
+*.pem
+*.key
+.ssh
